@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ag-tech green palette (matches web prototype) -->
+    <color name="green_primary">#2E7D32</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="green_light">#66BB6A</color>
+    <color name="green_pale">#F1F8E9</color>
+
+    <color name="amber_accent">#FFC107</color>
+    <color name="amber_dark">#FF8F00</color>
+
+    <color name="soil_brown">#795548</color>
+    <color name="sky_blue">#4FC3F7</color>
+
+    <!-- Severity colors -->
+    <color name="severity_low">#FBC02D</color>
+    <color name="severity_moderate">#FB8C00</color>
+    <color name="severity_high">#E64A19</color>
+    <color name="severity_critical">#C62828</color>
+
+    <!-- Status colors -->
+    <color name="status_connected">#4CAF50</color>
+    <color name="status_warning">#FF9800</color>
+    <color name="status_error">#F44336</color>
+</resources>

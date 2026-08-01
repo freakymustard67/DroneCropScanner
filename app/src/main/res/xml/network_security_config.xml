@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext traffic only to the drone's Wi-Fi AP IP (192.168.4.x) -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.4.1</domain>
+        <domain includeSubdomains="true">192.168.4.0/24</domain>
+        <domain includeSubdomains="true">10.0.0.0/8</domain>
+    </domain-config>
+    <!-- HTTPS required for everything else (Gemini API, etc.) -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

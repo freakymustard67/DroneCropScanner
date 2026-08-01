@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crop Drone Scanner</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_field">Field</string>
+    <string name="nav_mission">Mission</string>
+    <string name="nav_results">Results</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="home_drone_connected">Drone Connected</string>
+    <string name="home_drone_disconnected">Drone Disconnected</string>
+    <string name="home_new_scan">New Field Scan</string>
+    <string name="home_view_results">View Results</string>
+
+    <!-- Map -->
+    <string name="map_field_boundary">Field Boundary</string>
+    <string name="map_mode_manual">Tap to add vertices</string>
+    <string name="map_mode_auto">Auto-detected from satellite</string>
+    <string name="map_mode_walk">Press Start to walk</string>
+    <string name="map_generate_path">Generate Flight Path</string>
+
+    <!-- Mission -->
+    <string name="mission_preflight">Pre-flight Check</string>
+    <string name="mission_start">Start Mission</string>
+    <string name="mission_emergency_land">Emergency Land</string>
+    <string name="mission_rth">Return to Home</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_health_score">Field Health Score</string>
+    <string name="dashboard_run_cloud">Run Cloud Analysis</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_mission">Mission Status</string>
+    <string name="notif_channel_anomaly">Anomaly Detected</string>
+    <string name="notif_channel_cloud">Cloud Analysis</string>
+
+    <!-- Drone -->
+    <string name="drone_default_ip">192.168.4.1</string>
+    <string name="drone_default_port">8888</string>
+
+    <!-- Error / Status -->
+    <string name="err_no_internet">No internet — Pass 2 queued for later</string>
+    <string name="err_geofence_violation">Some waypoints violate 5m geofence</string>
+    <string name="err_battery_low">Battery too low for mission</string>
+</resources>

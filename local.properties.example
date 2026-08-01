@@ -1,0 +1,12 @@
+# Project-local properties — DO NOT COMMIT
+# Copy this file to local.properties and fill in your real values.
+
+# SDK location (set automatically by Android Studio)
+# sdk.dir=/path/to/Android/Sdk
+
+# API keys — injected into BuildConfig at build time.
+# Leave placeholders until you have real keys to inject.
+GOOGLE_MAPS_API_KEY=YOUR_API_KEY_HERE
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+SH_CLIENT_ID=YOUR_CLIENT_ID_HERE
+SH_CLIENT_SECRET=YOUR_CLIENT_SECRET_HERE
