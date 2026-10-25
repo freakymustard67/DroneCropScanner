@@ -33,3 +33,7 @@ Clean Architecture with three layers:
 1. Open in Android Studio
 2. Get a Gemini API key from Google AI Studio
 3. Build and run on an Android device
+
+## Research
+
+The Sentinel Hub / Sarvam AI crop-monitoring research and `sentinel_monitor.py` live in [research/sentinel](research/sentinel/).
